@@ -1,0 +1,9 @@
+jobs:
+ - job: A
+   steps:
+    - bash: echo "AJob"
+
+
+ - job: B
+   steps:
+    - bash: echo "BJob"
