@@ -1,9 +1,9 @@
 jobs:
  - job: A
    steps:
-    - bash: echo "AJob"
+    - bash: mvn clean
 
 
  - job: B
    steps:
-    - bash: echo "BJob"
+    - bash: mvn install
